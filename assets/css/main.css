@@ -2651,6 +2651,12 @@ input, select, textarea {
 			margin: 0 auto;
 		}
 
+		.obrazek img {
+			display: block;
+			margin: 4rem auto;
+			width: min(100%,600px);
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
@@ -2813,7 +2819,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 0.5rem 0 0;
+			padding: 0 0.3rem 0 0.3rem;
 			vertical-align: middle;
 		}
 
@@ -3654,7 +3660,7 @@ input, select, textarea {
 
 		#nav a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
 			#nav a:hover {
@@ -3759,6 +3765,15 @@ input, select, textarea {
 		}
 
 /* Main */
+
+	.centeringUtility {
+		margin: 0 auto;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+
 
 	#main {
 		background-color: #ffffff;
